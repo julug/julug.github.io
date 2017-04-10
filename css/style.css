@@ -86,8 +86,8 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #464c4f;
-	border-radius: 25px;
+    border-bottom: 3px double #464c4f;
+	border-radius: 5px;
     font-size: 30px;
     margin: 0 auto;
     padding: 10px 0;
@@ -116,7 +116,7 @@ fieldset {
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 25px 80px;
+	padding: 15px 60px;
 	display: inline-block;
 	margin: 15px 30px;
 	text-transform: uppercase;
@@ -153,7 +153,7 @@ fieldset {
 
 .button-style {
 	border-radius: 50px;
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 	color: #fff;
 	overflow: hidden;
 }
@@ -182,7 +182,7 @@ fieldset {
 
 .button-style-icon:before {
 	left: 130%;
-	top: -2px;
+	top: -10px;
 }
 
 .button-style-icon:hover:before {
@@ -450,7 +450,7 @@ body.loaded #preloader{
 
 .about-section {
 	overflow: hidden;
-	background-color: #7c8fad;
+	background-color: #f9f9f9;
 	
 }
 
@@ -526,13 +526,8 @@ ul.portfolio li.active {
     height: 50%
 }
 
-.item {
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
 .portfolio .item:hover a:before{
-  top: 40%;
+  top: 38%;
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
@@ -645,7 +640,7 @@ ul.portfolio li.active {
 
 .statistics-section {
 	position: relative;
-    background: url(../images/bg/b1g.jpg);
+    background: url(../images/bg/bg3.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -771,6 +766,18 @@ ul.portfolio li.active {
 
 .contact-us-detail a:hover {
 	color: #333;
+}
+
+.writeus{
+    font-size: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
 }
 
 .form-group {
